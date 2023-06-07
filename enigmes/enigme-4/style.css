@@ -1,0 +1,33 @@
+body {
+    background-color: #000;
+}
+
+.green-color {
+    color: green;
+}
+
+#neofetch {
+    color: red;
+}
+
+input {
+    width: 600px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.prompt-style {
+    border: 0px;
+    background-color: #000;
+    color: green;
+    font-size: 16px;
+    font-family: 'DejaVu Serif';
+}
+
+.output {
+   font-family: 'DejaVu Serif';
+   font-size: 16px;
+   color: green;
+}

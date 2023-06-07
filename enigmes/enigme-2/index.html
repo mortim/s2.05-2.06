@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Énigme 2</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<style>
+    * {
+    padding: 0;
+    margin: 0;
+}
+
+body { background-color: #000; }
+
+/* Corps de la page */
+#container {
+    padding: 20px;
+}
+
+p { color: green; }
+
+button {
+    border: 1px solid green;
+    color: #fff;
+    padding: 5px;
+    background-color: #000;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+table { border-collapse: collapse; }
+
+table, tr, td, th {
+    color: #fff;
+    border: 1px solid green;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+input {
+    width: 50%;
+    border: 1px solid green;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+}
+</style>
+<body>
+
+    <div id="container">
+        <p id="text"></p>
+        <button id="clue-btn">Indice</button>
+        <br><br>
+        <p>On réduit le nombre de cases mémoires (M18) donc la case I/O se trouve en dernière case du processeur à la case 18.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>0</th>
+                    <th>10</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th>0</td>
+                    <td><input type="text"></td>
+                    <td><input type="text" value="#" readonly></td>
+                </tr>
+
+
+                <tr>
+                    <th>1</td>
+                    <td><input type="text"></td>
+                    <td><input type="text" value="#" readonly></td>
+                </tr>
+
+                <tr>
+                    <th>2</td>
+                    <td><input type="text"></td>
+                    <td><input type="text" value="#" readonly></td>
+
+                </tr>
+
+                <tr>
+                    <th>3</td>
+                    <td><input type="text"></td>
+                    <td><input type="text" value="#" readonly></td>
+                </tr>
+
+                <tr>
+                    <th>4</td>
+                    <td><input type="text"></td>
+                    <td><input type="text" value="#" readonly></td>
+                </tr>
+
+                <tr>
+                    <th>5</td>
+                    <td><input type="text"></td>
+                    <td><input type="text" value="#" readonly></td>
+                </tr>
+
+                <tr>
+                    <th>6</td>
+                    <td><input type="text"></td>
+                    <td><input type="text" value="#" readonly></td>
+                </tr>
+
+                <tr>
+                    <th>7</td>
+                    <td><input type="text" value="JMP 18" readonly></td>
+                    <td><input type="text" value="#" readonly></td>
+                </tr>
+
+                <tr>
+                    <th>8</td>
+                    <td><input type="text" value="#" readonly></td>
+                    <td><input type="text" value="INPUT / OUTPUT" readonly></td>
+                </tr>
+            </tbody>
+        </table>
+        <button id="submit-btn">Soumettre le programme</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
