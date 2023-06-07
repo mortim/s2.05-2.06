@@ -2,6 +2,24 @@
 
 > Réalisé par Tas Atilla, Mirey Kellian, Aoulad-Tayab Karim
 
+<table>
+  <thead>
+    <tr>
+      <th>Flyer</th>
+      <th>Teaser</th>
+    </tr>
+  </thead>
+  
+  <tbody>
+      <tr>
+        <td><img src="flyer/Flyer CS_ Evolve.png" width="550" /></td>
+        <td>
+          <video src="https://github.com/mortim/s2.05-2.06/assets/33499834/c1b33ec4-4a69-4c4a-a04a-34486e325de0">
+        </td>
+      <tr>
+  </tbody>
+</table>
+
 Dans cet escape game (intitulé "CS' Evolve" ou Computer Science Evolution) le joueur incarne une personne lambda qui se rend dans un musée qui retrace l’évolution de l’informatique. Arrivé face à l’IA qui était supposé lui raconter l’histoire de la science de l’informatique, il se retrouve à devoir apprendre, par lui-même, certains passages de l’histoire de l’informatique pour reconstruire la mémoire de cette dernière.
 
 L’objectif du joueur est de rétablir les connaissances de l’IA en la reconnectant à internet et réalisant une série d’énigmes la guidant dans la récupération de ses données qui lui serviront dans un but ultime…
